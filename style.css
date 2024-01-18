@@ -1,0 +1,368 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*font size for wholep pg*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Navigation bar design*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: #003153;
+    color: darkgrey;
+
+}
+
+/*navigation links alone*/
+.Navlinks {
+    display: flex;
+    column-gap: 30px;
+
+}
+
+/*navigation links text design*/
+.Navlinks a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+/*navigation hover design*/
+
+.Navlinks a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/*\nav bar is not showing when the screen size is full*/
+.navlinks-responsive-bar {
+    display: none;
+
+}
+
+/*Responsive navbar links design*/
+
+.side-navbar {
+    background-color: white;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: black;
+    transition: 1s;
+
+}
+
+/*Responsive navbar links*/
+.responsive-navigation-links {
+    margin-bottom: 25px;
+}
+
+/*Responsive navbar links text color*/
+.responsive-navigation-links a {
+    text-decoration: none;
+    color: black;
+}
+
+/*navigation hover design*/
+
+.responsive-navigation-links a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/*Header content */
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+/*header content arragement*/
+.Headerbtn {
+
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    background-color: #003153;
+    color: white;
+    border-radius: 10px;
+}
+
+img {
+    display: flexbox;
+}
+
+/*headercontent background*/
+.headercontent {
+    background-color: ghostwhite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+
+}
+
+/*Newarrival Text*/
+.newarrivaltext {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+/*Newarrival SubText*/
+.arrivalsubtext {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: -50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.New-Arrival {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+
+.New-Arrival-Container {
+    position: relative;
+    flex-basis: 10%;
+    bottom: 30%;
+    align-items: center;
+    padding-bottom: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.New-Arrival button {
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    margin-top: 10px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 80%;
+    left: 30%;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(footerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 8%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    margin-top: 10px;
+
+}
+
+.newsletter input {
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 50vw;
+    border: solid;
+
+}
+
+.newsletter button {
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.footer {
+    margin-top: 0px;
+    padding: 30px;
+    display: flex;
+    background-color: #003153;
+    color: darkgrey;
+
+
+}
+
+.Footer-Links {
+    padding-right: 10px;
+    padding-left: 200px;
+    padding-top: -3px;
+    padding-bottom: 10px;
+    background-color: #003153;
+    color: darkgrey;
+    text-decoration: none;
+    line-break: normal;
+}
+
+.Collections {
+    margin-top: 20px;
+
+
+}
+
+.Product-search {
+    width: 80%;
+    border: solid black 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.Product-search input {
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.Product-search input:focus {
+    outline: none;
+}
+
+.products-sec {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.Products {
+    text-align: center;
+    flex-basis: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.products img {
+    border-radius: 20px;
+}
+
+.contactus {
+    background-color: #003153;
+    width: 550px;
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: start;
+    border-radius: 10px;
+}
+
+.contactus input {
+    width: 110%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: auto;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    gap: 80px;
+}
+
+.Contactdetails input#Message {
+    margin-bottom: 10px;
+    padding-bottom: 80px;
+    /* Adjust the value as needed */
+}
+
+.contactus button {
+    width: 25%;
+    border: solid black 1px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Submission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    padding-right: 15px;
+    margin-top: 10px;
+
+}
+
+.Subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+/*media query*/
+/*whenever reducing the screen the links should be disppearing and the bar should be shown*/
+
+@media screen and (max-width:650px) {
+    .navlinks-responsive-bar {
+        display: block;
+    }
+
+    .Navlinks {
+        display: none;
+    }
+
+    .headerimg {
+        display: none;
+    }
+}
