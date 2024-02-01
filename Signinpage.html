@@ -19,42 +19,64 @@
 </head>
 
 <body>
+    <div class="body-container">
+        <!--Navigation-->
+        <nav class="navbar">
+            <h1>Attire's</h1>
+            <div class="Navlinks">
+                <p class="Navlinks"><a href="index.html">Home</a></p>
+                <p class="Navlinks"><a href="collections.html">Collections</a></p>
+                <p class="Navlinks"><a href="contactus.html">Contact us</a></p>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="Signinpage.html"><i class="fa-solid fa-user-injured"></i></a>
 
-    <!--Navigation-->
-    <nav class="navbar">
-        <h1>Attire's</h1>
-        <div class="Navlinks">
-            <p class="Navlinks"><a href="index.html">Home</a></p>
-            <p class="Navlinks"><a href="collections.html">Collections</a></p>
-            <p class="Navlinks"><a href="contactus.html">Contact us</a></p>
-            <a><i class="fa-solid fa-cart-shopping"></i></a>  
-            <a><i class="fa-solid fa-user-injured"></i></a> 
+                <!--Navlinks responsive Bar-->
+            </div>
 
-            <!--Navlinks responsive Bar-->
+            <div class="navlinks-responsive-bar" onclick="showNav()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </nav>
+
+        <!--Navigation bar for responsive-->
+        <!--Navigation bar close button for responsive-->
+        <div class="side-navbar">
+            <p style="text-align: right;" onclick="closeNav()">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </p>
+            <!--Navigation links for responsive-->
+            <div class="responsive-navigation-links">
+                <p class="responsive-navigation-links"><a href="index.html">Home</a></p>
+                <p class="responsive-navigation-links"><a href="collections.html">Collections</a></p>
+                <p class="responsive-navigation-links"><a href="contactus.html">Contact us</a></p>
+                <p class="responsive-navigation-links"><a href="Signinpage.html">Sign In</a></p>
+
+            </div>
         </div>
-
-        <div class="navlinks-responsive-bar" onclick="showNav()">
-            <i class="fa-solid fa-bars-staggered"></i>
-        </div>
-    </nav>
-
-    <!--Navigation bar for responsive-->
-    <!--Navigation bar close button for responsive-->
-    <div class="side-navbar">
-        <p style="text-align: right;" onclick="closeNav()">
-            <i class="fa-solid fa-circle-xmark"></i>
-        </p>
-        <!--Navigation links for responsive-->
-        <div class="responsive-navigation-links">
-            <p class="responsive-navigation-links"><a href="index.html">Home</a></p>
-            <p class="responsive-navigation-links"><a href="collections.html">Collections</a></p>
-            <p class="responsive-navigation-links"><a href="contactus.html">Contact us</a></p>
-
-        </div>
-    </div>
 
         <!--Signin Page-->
+        <div class="formpage-ontainer">
+            <form action="" id="form">
+                <h3 style="text-align: center;">Welcome to Attires</h3>
+                <p class="sign">Join/Sign In using</p>
+                <div class="icons">
+                    <p><i class="fa-brands fa-facebook" style="font-size: x-large;"><a
+                                href="https://www.facebook.com/login/"
+                                style="color: darkgrey; text-decoration: none;"></i> Facebook
+                    <p></a>
+                    <p><i class="fa-brands fa-google" style="font-size: x-large;"><a
+                                href="https://myaccount.google.com/"
+                                style="color: darkgrey; text-decoration: none;"></i> Google</p></a>
+                </div>
+                <p style="text-align: center;">or</p>
+                <div class="contact">
+                    <p>Enter Your Mobile Number*</p>
+                    <input type="number" id="num">
+                    <button type="submit" id="button">Continue</button>
+                </div>
 
+            </form>
+        </div>
 
         <!--Footer-->
         <div class="footer">
@@ -64,20 +86,30 @@
                     <p><b>Stay Connected..! </b> </p>
                 </div>
                 <div class="Footer-Icons">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.facebook.com/login/" style="color: darkgrey; text-decoration: none;"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/i/flow/login" style="color: darkgrey; text-decoration: none;"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/"
+                        style="color: darkgrey; text-decoration: none;"><i class="fa-brands fa-instagram"></i></a>
                     <i class="fa-brands fa-youtube"></i>
                     <i class="fa-brands fa-google-play"></i>
-    
+
                 </div>
-                <p>Copyright@ 2024</p>
-    
+                <p>Copyright <i class="fa-regular fa-copyright"></i> 2024</p>
             </div>
-            
-    
+            <div class="Footer-Links">
+                <p><a href="contactus.html" style="color: darkgrey;" target="_blank"> Contact us</a></p>
+                <p><a href="E:\Ganeshram\Attire's\public\Terms&Condt.html" style="color: darkgrey;" target="_blank">
+                        Terms &
+                        Condition</a></p>
+                <p><a href="E:\Ganeshram\Attire's\public\privacy.html" style="color: darkgrey;" target="_blank"> Privacy
+                        Policy</a></p>
+            </div>
+
         </div>
-        <script src="E:\Ganeshram\Attire's\index.js"></script>
-    </body>
-    
-    </html>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>

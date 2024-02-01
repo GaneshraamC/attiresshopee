@@ -19,7 +19,7 @@
 </head>
 
 <body>
-
+    <div  class="body-container">
     <!--Navigation-->
     <nav class="navbar">
         <h1>Attire's</h1>
@@ -28,7 +28,7 @@
             <p class="Navlinks"><a href="collections.html">Collections</a></p>
             <p class="Navlinks"><a href="contactus.html">Contact us</a></p>
             <a><i class="fa-solid fa-cart-shopping"></i></a>
-            <a><i class="fa-solid fa-user-injured"></i></a>
+            <a href="Signinpage.html"><i class="fa-solid fa-user-injured"></i></a>
 
             <!--Navlinks responsive Bar-->
         </div>
@@ -49,27 +49,30 @@
             <p class="responsive-navigation-links"><a href="index.html">Home</a></p>
             <p class="responsive-navigation-links"><a href="collections.html">Collections</a></p>
             <p class="responsive-navigation-links"><a href="contactus.html">Contact us</a></p>
+            <p class="responsive-navigation-links"><a href="Signinpage.html">Sign In</a></p>
 
         </div>
     </div>
+
     <!--Contact Us-->
-    <center>
-        <div class="contactus">
+    <!-- <center> -->
+        <div class="contactus-container">
+            <div class="contactus">
             <form class="Contactdetails">
                 <h1>Contact Us</h1>
-                <p>Name*</p>
-                <input type="text" placeholder="Enter Your Name" id="searchname">
-                <p>E-Mail*</p>
-                <input type="email" placeholder="Enter your E-Mail Address" id="email">
-                <p>Message*</p>
-                <input type="text" placeholder="Message" id="Message">
-                <button class="Submission"> <a href="submission.html" style="color: black; text-decoration: none;">
+                <p>Name</p>
+                <input type="text" placeholder="Enter Your Name" id="searchname" class="item">
+                <p>E-Mail</p>
+                <input type="email" placeholder="Enter your E-Mail Address" id="email" class="item">
+                <p>Message</p>
+                <input type="text" placeholder="Message" id="Message" class="item">
+                <button class="Submission">
                         Submit </a></button>
             </form>
-
+        </div>  
         </div>
 
-    </center>
+    <!-- </center> -->
     <!--Footer-->
     <div class="footer">
         <div class="footer-container">
@@ -91,15 +94,20 @@
             <p>Copyright <i class="fa-regular fa-copyright"></i> 2024</p>
         </div>
         <div class="Footer-Links">
-            <p><a href="contactus.html" style="color: darkgrey;"> Contact us</a></p>
-            <p><a href="https://www.beyoung.in/terms-conditions" style="color: darkgrey;" target="_blank"> Terms &
+            <p><a href="contactus.html" style="color: darkgrey;" target="_blank"> Contact us</a></p>
+            <p><a href="E:\Ganeshram\Attire's\public\Terms&Condt.html" style="color: darkgrey;" target="_blank" > Terms &
                     Condition</a></p>
-            <p><a href="https://www.beyoung.in/privacy-policy" style="color: darkgrey;" target="_blank"> Privacy
+            <p><a href="E:\Ganeshram\Attire's\public\privacy.html" style="color: darkgrey;" target="_blank" > Privacy
                     Policy</a></p>
         </div>
 
     </div>
+    <script src="contactus.js"></script>
+    <script src="collection.js"></script>
     <script src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</div>
 </body>
 
 </html>
